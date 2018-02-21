@@ -12,7 +12,7 @@ import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.webapp.WebAppContext;
 
 public class WebServer {
-	public static final int PORT = 8090;
+	public static final int PORT = 8080;
 	private static final String WEBAPP_DIRECTORY = "webapp";
     private static final String CONTEXT_PATH = "/";
 	private Server server ;
